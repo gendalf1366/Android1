@@ -16,4 +16,7 @@
     <string name="rav">=</string>
     <string name="zero">0</string>
     <string name="plus">+</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="Setting">S</string>
+    <string name="Back">Назад</string>
 </resources>

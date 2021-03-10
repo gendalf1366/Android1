@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="11dp"
-    android:background="#B8860B">
+    android:paddingTop="11dp">
 
     <TextView
         android:id="@+id/textView"
@@ -139,6 +138,13 @@
             android:id="@+id/rav"
             android:layout_weight="1"
             android:text="@string/rav"
+            tools:ignore="ButtonStyle"
+            style="@style/MyStyle2"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/setting"
+            android:layout_weight="1"
+            android:text="@string/Setting"
             tools:ignore="ButtonStyle"
             style="@style/MyStyle2"/>
     </LinearLayout>
